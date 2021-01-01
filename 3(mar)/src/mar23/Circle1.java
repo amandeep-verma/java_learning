@@ -1,4 +1,5 @@
 package mar23;
+// the abstract method getArea from inherited class is implemented
 
 public class Circle1 extends Shape1{
 	double r;

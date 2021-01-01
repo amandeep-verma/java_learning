@@ -1,5 +1,5 @@
 package mar13.hw;
-
+// parametrised constructor
 public class Running {
 	public static void main(String[] args)
 	{

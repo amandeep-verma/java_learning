@@ -1,4 +1,5 @@
 package mar8;
+// each time object is created from the class, its constructor is called.
 class Student
 {
 	int id;

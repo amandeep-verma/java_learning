@@ -1,5 +1,6 @@
 package mar20;
-
+// MainClass asks user for the input to make object of Super class using Child class reference (Upcasting)
+// using switch statements.
 import java.util.Scanner;
 
 public class MainRun2 {
@@ -11,7 +12,7 @@ public class MainRun2 {
 
 		switch (choice) {
 		case 1:
-			sh = new Square2(8.9);
+			sh = new Square2(8.9); 
 			break;
 		case 2:
 			sh = new Circle2(8.5);

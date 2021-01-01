@@ -1,4 +1,5 @@
 package mar23;
+// class Doctor3 implies all abstract method.
 
 public class Doctor3 extends Employee3{
 	String Dsg;

@@ -1,4 +1,7 @@
 package mar5;
+// creating two objects of the class, initializing one with values and second with no values. Later making p2 = p1,
+// which makes both of them referring to null values(default values).
+
 import java.util.Scanner;
 
 class mainPen6

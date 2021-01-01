@@ -1,5 +1,4 @@
-package hw;
-
+package mar20.hw;
 public class husband extends Female{
 	void mood()
 	{

@@ -1,4 +1,4 @@
-package hw;
+package mar20.hw;
 
 public class boyfriend extends Female{
 	void mood()

@@ -1,5 +1,6 @@
 package mar30;
-
+// Object class is the supermost class in java
+// Program shows use of hashCode, toString, equals method.
 public class MainRunner1 {
 
 	public static void main(String[] args) {

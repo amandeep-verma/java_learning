@@ -1,5 +1,6 @@
 package mar13.hw;
-
+// parent class with only one constructor which is parameterized so have to explicitly call the constructor in 
+// child class.
 public class Customer extends Person{
 
 	long id;

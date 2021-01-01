@@ -6,9 +6,9 @@ public class Main1 {
 		Car1 ec=new ElectricCar1();
 		ec.Start();
 		
-		
+		System.out.println("------------");
 		ElectricCar1 ec2=new ElectricCar1();
-//		ec2.ElectricCar1();
+		ec2.ElectricCar1();
 		
 		
 	}

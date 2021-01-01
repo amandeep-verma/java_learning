@@ -1,4 +1,8 @@
 package mar6;
+/* Here we have both static and non static- variable and method. In order to access a non-static member in same class
+   in static method we have to create its object first but not for static member. Also both static and non static 
+   member can be accessed in the same class in non- static method without creating object.
+*/
 class Demo
 {
 	static int x=300;
@@ -14,6 +18,7 @@ class Demo
 		System.out.println(x);
 		System.out.println(y);
 	}
+	
 }
 
 class MainRunner6
@@ -25,8 +30,5 @@ class MainRunner6
 		Demo D1=new Demo();
 		System.out.println(D1.y);
 		D1.print();
-		Demo D2=new Demo();
-		System.out.println(D2.y);
-		D2.print();
 	}
 }

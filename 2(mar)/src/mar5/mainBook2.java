@@ -1,4 +1,7 @@
 package mar5;
+
+// making 2 objects of the class Book, keeping one to the default initialization and changing the another. 
+// Later printing them both
 class mainBook2
 { 
 	public static void main(String[] args)

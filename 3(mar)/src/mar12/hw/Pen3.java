@@ -1,5 +1,5 @@
 package mar12.hw;
-
+// pen class with default values for color and price.
 public class Pen3 {
 	String company;
 	String color = "red";

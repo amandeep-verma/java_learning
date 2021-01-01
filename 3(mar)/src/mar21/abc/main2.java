@@ -1,5 +1,5 @@
 package mar21.abc;
-
+// No other members than public members can be accessed by object reference in another package.
 import mar21.xyz.Simple2;
 
 public class main2 {

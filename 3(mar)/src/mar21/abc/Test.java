@@ -1,4 +1,6 @@
 package mar21.abc;
+// package abc imports xyz.Simple2. The default variables and method are not visible out of package.
+// Where as protected members can be accessed via extends
 import mar21.xyz.Simple2;
 public class Test extends Simple2{
 	void print()

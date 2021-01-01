@@ -1,4 +1,5 @@
 package mar9;
+// printing the local variable, later printing the instance variable using this keyword.
 class Test
 { 
         int y=50;

@@ -1,4 +1,5 @@
 package mar5;
+// changing the already initialized variable value by using object reference and printing it.
 class mainBook1
 {
 	public static void main(String[] args)

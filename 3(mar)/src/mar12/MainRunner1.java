@@ -1,5 +1,5 @@
 package mar12;
-
+// printing the variable and calling the methods of parent class using child class reference
 public class MainRunner1 {
 
 	public static void main(String[] args) {

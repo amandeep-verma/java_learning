@@ -2,7 +2,6 @@ package mar30;
 
 public class Simple {
 	public int hashCode() {
-		
 		return 420;
 	}
 	public String toString()

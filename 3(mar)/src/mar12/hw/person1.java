@@ -1,5 +1,5 @@
 package mar12.hw;
-
+// person class with some properties
 public class person1 {
 	String name;
 	long aadharid;

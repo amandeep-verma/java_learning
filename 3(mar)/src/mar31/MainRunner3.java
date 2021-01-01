@@ -8,12 +8,14 @@ public class MainRunner3 {
 		c2.cID=125;
 		System.out.println(c1);
 		
-		// 1st way(not preferable)
+		System.out.println("-----------");
+		// 1st way(not preferable) 
 		Customer3 c3=new Customer3(c1.cID,c1.cName); //duplicate
 		c3.cName="ramesh";
 		System.out.println(c1);
 		System.out.println(c3);
 		
+		System.out.println("-----------");
 		// 2nd way(preferred)
 		Customer3 c4=(Customer3) c1.clone();
 		c4.cName="raghu";

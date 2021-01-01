@@ -1,4 +1,5 @@
 package mar5;
+// defining class Pen, creating the object of class, initializing the variable and printing them.
 import java.util.Scanner;
 class Pen
 {

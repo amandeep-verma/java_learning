@@ -1,5 +1,6 @@
 package mar2;
 
+// printing the class variables without initializing them
 class MainRunner1
 {
 	public static void main(String[] args)

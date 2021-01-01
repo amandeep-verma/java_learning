@@ -1,4 +1,5 @@
 package mar8;
+// constructor can have parameters which can be used to initialize the variables.
 class Rectangle
 { 
         double l,b;

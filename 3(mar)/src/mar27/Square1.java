@@ -1,5 +1,5 @@
 package mar27;
-
+//Class Square1 implements method getArea.
 public class Square1 implements Shape1{
 	double s;
 	Square1(double s)

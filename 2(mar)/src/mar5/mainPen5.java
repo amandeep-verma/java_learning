@@ -1,4 +1,6 @@
 package mar5;
+// creating object p3 referring to p1 and and initializing the variable linked to object p3 which reflects
+// changes to p1 as well.
 import java.util.Scanner;
 
 class mainPen5

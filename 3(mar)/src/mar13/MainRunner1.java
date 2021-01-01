@@ -1,5 +1,6 @@
 package mar13;
-
+// displays constructor of parent class is called inside the child class constructor even before child class constructor 
+// when we create an object of child class. 
 public class MainRunner1 {
 
 	public static void main(String[] args) {

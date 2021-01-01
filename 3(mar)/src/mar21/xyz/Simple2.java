@@ -1,5 +1,5 @@
 package mar21.xyz;
-
+// class simple show-casing access control modifiers for variables and methods
 public class Simple2 {
 	private int a=20;
 	int b=40;
@@ -21,7 +21,7 @@ public class Simple2 {
 	public void m4()
 	{
 		a=a+5;
-		System.out.println("thisis "+a);
+		System.out.println("this is "+a);
 		System.out.println(d);
 	}
 }

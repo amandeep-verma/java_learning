@@ -1,4 +1,5 @@
 package mar6;
+// When class members are prefixed with word static, they can accessed using classname - ClassName.variable
 class Samples
 {
 	static int x;

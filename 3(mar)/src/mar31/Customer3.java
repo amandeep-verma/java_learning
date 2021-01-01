@@ -17,7 +17,6 @@ public class Customer3 implements Cloneable{
 		return new Customer3(cID,cName);
 	}
 	
-	
 	// the method below can be used for cloning instead of using the above one
 	
 //	public Object clone() throws CloneNotSupportedException{

@@ -1,5 +1,5 @@
 package mar9;
-
+// using this keyword in constructor and another method to change the instance variable. Later printing them.
 class Student
 {
 	String name;

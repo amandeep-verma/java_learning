@@ -1,4 +1,6 @@
 package mar9;
+// this keyword is used to refer instance variable which is out of the method. It prevents overshadowing of the variable
+// from local variable with the same name in the method.
 
 class Simple
 {

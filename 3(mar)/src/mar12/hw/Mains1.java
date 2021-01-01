@@ -1,5 +1,5 @@
 package mar12.hw;
-
+// inheritance
 public class Mains1 {
 	public static void main(String[] args) {
 

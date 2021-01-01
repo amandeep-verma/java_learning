@@ -1,5 +1,5 @@
 package mar23;
-
+// Super class(abstract) makes object using child class and prints the return value from method.
 public class MainHotel2 {
 
 	public static void main(String[] args) {

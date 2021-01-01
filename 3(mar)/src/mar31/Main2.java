@@ -1,5 +1,5 @@
 package mar31;
-
+// hashCode and equals method
 public class Main2 {
 	public static void main(String[] args) {
 		String st1=new String();
@@ -17,6 +17,7 @@ public class Main2 {
 		System.out.println(st6);
 		System.out.println("<------------------------->");
 		
+		// In String class hashCode method is overridden to return the value based on the content
 		System.out.println(st1.hashCode());
 		//System.out.println(st2.hashCode()); //null pointer exception
 		System.out.println(st3.hashCode());
@@ -28,7 +29,6 @@ public class Main2 {
 		System.out.println(st1.equals(st3));
 		System.out.println(st3.equals(st4));
 		System.out.println(st3.equals(st5));
-		System.out.println(st3.equals(st6));
 		System.out.println("<------------------------->");
 		
 		System.out.println(st3.equals(st6)); //compares content

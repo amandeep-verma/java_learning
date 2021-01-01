@@ -1,5 +1,5 @@
 package mar13;
-
+// By default no parameterized constructor of parent class is present in all constructors of child class.
 public class MainRunner2 {
 
 	public static void main(String[] args) {

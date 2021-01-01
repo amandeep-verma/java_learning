@@ -1,5 +1,5 @@
 package mar5.hw;
-
+// same as of mar5 
 import java.util.Scanner;
 class mainPenRunner
 {

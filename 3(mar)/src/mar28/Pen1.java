@@ -1,5 +1,5 @@
 package mar28;
-
+// encapsulation - all variables private, using getters and setters for accessing all of them.
 public class Pen1 {
 	private String color;
 	private String name;

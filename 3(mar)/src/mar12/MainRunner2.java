@@ -1,5 +1,5 @@
 package mar12;
-
+// printing the variables and methods from super and inherited class 
 public class MainRunner2 {
 	public static void main(String[] args)
 	{

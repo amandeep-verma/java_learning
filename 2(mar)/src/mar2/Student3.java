@@ -1,5 +1,5 @@
 package mar2;
-
+//printing the class variables after initializing them
 class Student3
 { 
         public static void main(String[] args)

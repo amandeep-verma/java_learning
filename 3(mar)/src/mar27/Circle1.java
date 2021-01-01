@@ -1,5 +1,5 @@
 package mar27;
-
+// Class Circle1 implements method getArea.
 public class Circle1 implements Shape1{
 	double r;
 	Circle1(double r)

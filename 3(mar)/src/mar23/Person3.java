@@ -1,5 +1,5 @@
 package mar23;
-
+// class Person3 contains abstract methods
 public abstract class Person3 {
 	String name;
 	int age;

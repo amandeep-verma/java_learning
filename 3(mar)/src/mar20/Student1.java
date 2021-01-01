@@ -1,5 +1,5 @@
 package mar20;
-
+// Parameterized constructor from parent class called using super keyword. Method PersonInfo is overriden.
 public class Student1 extends Person1{
 	int Sid;
 	double Sper;

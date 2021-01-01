@@ -1,5 +1,5 @@
 package mar12.hw;
-
+//student class extending person class
 public class Student1 extends person1{
 	int id;
 	double per;
@@ -10,3 +10,4 @@ public class Student1 extends person1{
 		System.out.println("percentage "+per);
 	}
 }
+	 

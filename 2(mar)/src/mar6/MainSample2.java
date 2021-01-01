@@ -1,5 +1,6 @@
 package mar6;
-
+// printing the object itself- by default prints the PackageName.ClassName@address of the object.
+// printing the object without referring it to a reference. (new ClassName()). - prints null(default values)
 class MainSample2
 {
 	public static void main(String[] args)

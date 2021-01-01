@@ -1,5 +1,5 @@
 package mar1;
-
+// method overloading
 import java.util.Scanner;
 class Sample2
 {
@@ -20,7 +20,7 @@ class Sample2
 	public static void main(String[] args)
 	{
 		System.out.println("Main Method started");
-		disp("Rajkumar");
+		disp("RebithRaven");
 		disp('a',22);
 		disp(3,'a');
 //		disp(23,"tad"); //error

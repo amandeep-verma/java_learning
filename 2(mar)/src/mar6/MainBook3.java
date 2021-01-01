@@ -1,4 +1,6 @@
 package mar6;
+
+// printing the variables without initializing them and later after initializing them.
 class Book
 {
 	String name;

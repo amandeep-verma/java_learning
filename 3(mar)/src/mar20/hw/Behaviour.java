@@ -1,4 +1,4 @@
-package hw;
+package mar20.hw;
 import java.util.Scanner;
 public class Behaviour {
 
@@ -18,7 +18,7 @@ public class Behaviour {
 		default: f1=new Female();
 		}
 		f1.mood();
-
+		
 	}
 
 }

@@ -1,5 +1,5 @@
 package mar30;
-
+// class MainRunner2 shops implementation of hashCode, toString and equals using several classes
 public class MainRunner2 {
 	public static void main(String[] args) {
 		Test t=new Test();
@@ -30,7 +30,5 @@ public class MainRunner2 {
 		System.out.println(st.equals(st2));
 		System.out.println(st2.equals(st));
 		System.out.println(st.equals(st3));
-		
-		
 	}
 }

@@ -1,4 +1,5 @@
 package mar5;
+// defining a class student and made 3 object reference of the class, initialize them values and printing them.
 class mainStudent3
 {
 	public static void main(String[] args)

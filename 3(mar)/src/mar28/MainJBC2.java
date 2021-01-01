@@ -1,5 +1,5 @@
 package mar28;
-
+//setting the values to variables of pen class using setter and printing them back using getter.
 	public class MainJBC2 {
 		public static void main(String[] args) {
 			javaBeanClass2 b=new javaBeanClass2();

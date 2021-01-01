@@ -1,5 +1,5 @@
 package mar20;
-
+// class with some variables and a method printing those constant
 public class A0 {
 
 	String name = "Class A";

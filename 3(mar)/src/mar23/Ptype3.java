@@ -1,5 +1,5 @@
 package mar23;
-
+// class Ptype implements all abstract method
 public class Ptype3 extends Patient3{
 	String type;
 	public Ptype3(String name, int age, int pid, double bill, String type) 

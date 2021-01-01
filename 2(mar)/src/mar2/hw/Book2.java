@@ -1,5 +1,5 @@
 package mar2.hw;
-
+// same to mar2
 class Book2
 {
 	public static void main(String[] args)

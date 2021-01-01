@@ -1,11 +1,12 @@
 package mar21.xyz;
-
+// class sample2 extends simple2, private variables and method from parent class can't be accessed.
 public class Sample2 extends Simple2{
 	
-	void m1()
+	void m1() // m1 is not over ridden here, as m1 in Simple2 is private.
 	{
-		System.out.println("jai mata di");
+		System.out.println("anything can happen");
 	}
+	
 	void disp()
 	{
 		// System.out.println(a);  //private
@@ -14,5 +15,6 @@ public class Sample2 extends Simple2{
 		m2();
 		System.out.println(c);
 		m3();
+		
 	}
 }

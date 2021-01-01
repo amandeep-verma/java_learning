@@ -1,5 +1,5 @@
 package mar21.xyz;
-
+// all methods and variables apart from private one can be accessed with in the same package.
 public class main2 {
 
 	public static void main(String[] args) {
@@ -13,8 +13,8 @@ public class main2 {
 		si.m4();
 		System.out.println("-------");
 		Simple2 s2= new Sample2();
-		// s2.disp(); // as disp is not in simple
-		// s2.m1() ; // as m1 in simple is private, so m1 in sample is not overriden. Its like the disp method above 
+		// s2.disp(); // Display is method of Sample class
+		// s2.m1() ; // as m1 in simple is private, so m1 in sample is not overriden. Its like the disp method above
 	}
 
 }

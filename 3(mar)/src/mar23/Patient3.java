@@ -1,5 +1,5 @@
 package mar23;
-
+// class Patient3 extends Person3 and adds 2 more abstract method 
 public abstract class Patient3 extends Person3{
 	int pid;
 	double bill;
