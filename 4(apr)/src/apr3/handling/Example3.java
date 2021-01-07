@@ -13,8 +13,9 @@ public class Example3 {
 		{
 			System.out.println("caught");
 		}
+		// for whatever may happen final block is executed
 		finally {
-			System.out.println("i am fully block");
+			System.out.println("i am finally block");
 		}
 
 		System.out.println("thank you");

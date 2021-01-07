@@ -1,5 +1,7 @@
 package apr5;
-
+// The exception occured in class Simple5 is handle here by try and catch blocks.
+// Also instead of handling it with try and catch, we can have it thrown to JVM by simply using throws keyword like
+// we did in Simple5 
 import java.io.FileNotFoundException;
 
 public class MainDemo5

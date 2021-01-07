@@ -27,7 +27,11 @@ public class ExceptionDemo2 {
 		} 
 		catch (ArithmeticException e)
 		{
+			System.out.println(e); // prints exception name with the message 
+			System.out.println(e.getMessage());  // it prints just the message 
 			System.out.println("its an issue with 0");
+			System.out.println("--------");
+			e.printStackTrace();  // prints the exception class with message with all the details (full exception message)
 		}
 		catch (Exception e) 
 		{

@@ -1,5 +1,5 @@
 package apr6;
-
+// custom exception inheriting runtime exception
 public class VeryFastException extends RuntimeException{
 
 	VeryFastException(String st)

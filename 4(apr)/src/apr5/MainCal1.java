@@ -1,4 +1,10 @@
 package apr5;
+/* Using the System.exit(0) program can be terminated there itself. Also for an exception, if we want to give user
+ *  an option to re enter the input main function can be called be again. To make the commands after the execution of
+ *  main function do not run again System.exit(0) can be used.
+ *  Also in catch block, one can look for catch the specific exception by passing as parameter. If we pass just Exception e
+ *  than all exception can be targetted.
+*/
 import java.util.Scanner;
 public class MainCal1 {
 
@@ -26,11 +32,10 @@ public class MainCal1 {
 		}
 		catch(NumberFormatException ne) // it occurs when number passed to Integer.parseInt aren't in form of integer
 		{
-			//System.exit(0); // exists the program
 			System.out.println(ne);
 			//System.out.println(ne.getMessage());
 			main(args);
-			
+			//System.exit(0); // exists the program
 		}
 		catch(Exception e) // for all the remaining exceptions 
 		{
@@ -39,9 +44,11 @@ public class MainCal1 {
 		finally
 		{
 			System.out.println("i am final block");
-			//System.exit(0); 
+//			System.exit(0); 
 			
-			// if u remove this, final block and "thank you" will be printed the number of times which is number
+			// This System.exit(0); exists for the second catch block
+			
+			// if u remove this, (final block and "thank you") will be printed the number of times which is number
 			// you make the mistake and hence main method is called equal number of times in it.
 			 
 			// but if you keep it "thank you" will never be printed

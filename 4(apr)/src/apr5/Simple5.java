@@ -1,5 +1,5 @@
 package apr5;
-
+// for an exception not handled it can be thrown using "throws" , the class calling it can handle it
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 

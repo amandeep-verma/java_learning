@@ -1,5 +1,6 @@
 package apr5;
-
+// throw can be used in combination with try and catch. We can pass the String in an exception in throw so it can 
+// print it on the screen
 import java.util.Scanner;
 
 public class Demo3 {
@@ -18,8 +19,9 @@ public class Demo3 {
 		} 
 		catch (Exception e)  // if value other than number is entered, ie- String
 		{
-//			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());
 		}
 		System.out.println("thanku ...");
+		
 	}
 }
